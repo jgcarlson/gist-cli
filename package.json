@@ -1,0 +1,39 @@
+{
+  "name": "GistCLI",
+  "version": "0.1.0",
+  "description": "A CLI for gist.github.com.",
+  "homepage": "https://github.com/jgcarlson/gist-cli",
+  "main": "./lib/commands.js",
+  "preferGlobal": true,
+  "bin": {
+    "gist": "./lib/commands.js"
+  },
+  "scripts": {
+    "gist": "node ./lib/commands.js"
+  },
+  "keywords": [
+    "gist",
+    "cli"
+  ],
+  "author": {
+    "name" : "Jonathan Carlson",
+    "url" : "https://jcarlson.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgcarlson/gist-cli.git"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cli-highlight": "^2.0.0",
+    "commander": "^2.16.0",
+    "dayjs": "^1.7.4",
+    "inquirer": "^6.0.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0"
+  }
+}
